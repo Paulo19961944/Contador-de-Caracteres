@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #fafafa;
+}
+
+
+header, footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 96px;
+    background-color: #2262FE;
+    color: #FFF;
+}
+
+header{
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+.header-container{
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+small{
+    font-size: 0.563rem;
+}
+
+footer{
+    justify-content: center;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+#logo{
+    width: 32px;
+    height: 32px;
+}
+
+.title, .title-text, #char, #words, #lines{
+    font-family: 'Inder', sans-serif;
+    font-weight: bold;
+}
+
+#char, #words, #lines{
+    margin-top: 8px;
+    text-align: center;
+    font-size: 0.75rem;
+}
+
+.title{
+    font-size: 0.938rem;
+    color: #FFF;
+}
+
+.title-text{
+    margin: 48px 0 24px 0;
+    text-align: center;
+    font-size: 0.938rem;
+}
+
+#message {
+    overflow-x: auto;
+    margin-bottom: 32px;
+    border: 1px solid #00000011;
+    border-radius: 4px;
+    width: 288px;
+    height: 160px;
+    background-color: #f0f0f0;
+    font-size: 0.625rem;
+}
+
+
+#message, small{
+    font-family: 'Inria Sans', sans-serif;
+}
