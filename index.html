@@ -7,6 +7,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link href="https://fonts.googleapis.com/css2?family=Inder&family=Inria+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="src/styles/style.css">
+    <link rel="stylesheet" href="src/styles/media-query.css">
 </head>
 <body>
     <header>
@@ -19,7 +20,9 @@
         <section id="message-box">
             <h1 class="title-text">Digite aqui o seu texto:</h1>
             <form action="#">
-                <input type="text" name="message" id="message">
+                <fieldset>
+                    <textarea name="message" id="message"></textarea>
+                </fieldset>
             </form>
             <p id="char">Caracteres: 0</p>
             <p id="words">Palavras: 0</p>
